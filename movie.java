@@ -1,0 +1,4 @@
+enum Movie
+{
+	SONOFGOD, J, KAMALI, RISEN, GRACE
+}
