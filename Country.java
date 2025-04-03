@@ -1,1216 +1,710 @@
-class Country
-{
-	public static void countr(String name)
-	{
-		if(name=="india")
-		{
-			long population=1413324000;
-			System.out.println("name   "+name+"  Population "+population);
-		
-		}
-		
-		else if(name=="china")
-		{
-			long population=1408280000;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="us")
-		{
-			long population=340110988;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="indonesia")
-		{
-			long population=282477584;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="pakistan")
-		{
-			long population=241499431;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="nigeria")
-		{
-			long population=223800000;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="brazil")
-		{
-			long population=212583750;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="bangladesh")
-		{
-			long population=169828911;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="russia")
-		{
-			long population=146028325;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="mexico")
-		{
-			long population=130294079;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="japan")
-		{
-			long population=123540000;
-			System.out.println("name  "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="philippines")
-		{
-			long population=114123600;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="ethiopia")
-		{
-			long population=109499000;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="congo")
-		{
-			long population=109276000;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="egypt")
-		{
-			long population=105914499;
-			System.out.println("name  "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="vietnam")
-		{
-			long population=101343800;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="iran")
-		{
-			long population=85961000;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="turkey")
-		{
-			long population=85664944;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="germany")
-		{
-			long population=83555478;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="france")
-		{
-			long population=68603000;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="uk")
-		{
-			long population=68265209;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="thailand")
-		{
-			long population=65932105;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="southAfricca")
-		{
-			long population=63015904;
-			System.out.println("name  "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="thanzania")
-		{
-			long population=1504343784;
-			System.out.println("name  "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="italy")
-		{
-			long population=58966101;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="colombia")
-		{
-			long population=52695952;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="kenya")
-		{
-			long population=90;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="myanmar")
-		{
-			long population=51316756;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="south korea")
-		{
-			long population=9051207;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="sudan")
-		{
-			long population=50448963;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="spain")
-		{
-			long population=49077984;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="32 algeria")
-		{
-			long population=47400000;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="34 uganda")
-		{
-			long population=90151615;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="35 iraq")
-		{
-			long population=9035415;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="36 afghanistan")
-		{
-			long population=9041567;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="37 canada")
-		{
-			long population=9055465;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="38 uzbekistan")
-		{
-			long population=90446546;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="39 poland")
-		{
-			long population=968464;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="40 morraco")
-		{
-			long population=9065516;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="41 angolo")
-		{
-			long population=9051511;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="42 malaysia")
-		{
-			long population=9035453;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="43 peru")
-		{
-			long population=905416454;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="44 mozambique")
-		{
-			long population=90435353;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="45 ghana")
-		{
-			long population=9033513;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="46 ukraine")
-		{
-			long population=9045415;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="47 yemen")
-		{
-			long population=9055456;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="48 saudhi arabia")
-		{
-			long population=905131101;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="49 madagascar")
-		{
-			long population=903415315;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="50 ivory")
-		{
-			long population=90351531;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="51 nepal ")
-		{
-			long population=905435153;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="52 cameroon")
-		{
-			long population=905665654;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="53 venezula")
-		{
-			long population=90541515;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="54 australia")
-		{
-			long population=905415;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="55 niger")
-		{
-			long population=905454;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="56 north korea")
-		{
-			long population=905414;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="57  syria")
-		{
-			long population=9054115;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="58 burkina ")
-		{
-			long population=9051514;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="59 mali")
-		{
-			long population=905151415;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="60 sri lanka")
-		{
-			long population=90544115;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="61 kazakhstan")
-		{
-			long population=90212113;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="62 malawi")
-		{
-			long population=90554155;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="63 chile")
-		{
-			long population=9054466;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="64 zambia")
-		{
-			long population=90212521;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="65 romania")
-		{
-			long population=905154254;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="66 somalia")
-		{
-			long population=905155521;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="67 chad ")
-		{
-			long population=9054343;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="68 senegal")
-		{
-			long population=90541354;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="69 netherlands")
-		{
-			long population=904534345;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="70 guatemala")
-		{
-			long population=905546313;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="71 cambodia")
-		{
-			long population=9054154;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="72 ecuador")
-		{
-			long population=905563;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="73 zimbabwe")
-		{
-			long population=905154656;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="74 south suddan")
-		{
-			long population=9056551;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="75 guinea")
-		{
-			long population=906544646;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="76 rwanda")
-		{
-			long population=905464664;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="77 benin")
-		{
-			long population=905661314;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="78 burundi")
-		{
-			long population=84515666;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="79 haiti")
-		{
-			long population=903265;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="80 tunisia")
-		{
-			long population=90545114;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="81 belgium")
-		{
-			long population=90651666;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="82 papua")
-		{
-			long population=9054561;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="83 jordan")
-		{
-			long population=96656550;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="84 bolivia")
-		{
-			long population=90515616;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="85 cuba")
-		{
-			long population=154551590;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="86 czech")
-		{
-			long population=905651;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="87 dominican")
-		{
-			long population=90551331;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="88 uae pongal")
-		{
-			long population=905311313;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="89 uae")
-		{
-			long population=90515161;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="90 sweden")
-		{
-			long population=912110;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="91 greece")
-		{
-			long population=9255110;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="92 tajikistan")
-		{
-			long population=905516;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="93  azerbaijan")
-		{
-			long population=90515415;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="94 israel")
-		{
-			long population=116616690;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="95 honduras")
-		{
-			long population=66465690;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="96 hungary")
-		{
-			long population=21166390;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="97 austria")
-		{
-			long population=9054511;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="98 belarus")
-		{
-			long population=905441545;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="99  switzerland")
-		{
-			long population=21616190;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="100 sierra")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		else if(name=="101 tango")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="102 loas")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="103 libya")
-		{
-			long population=84589450;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="104 krygyzstan")
-		{
-			long population=84590;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="105 turkmenistan")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="106 nicaragua")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="107 serbia")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="108 african")
-		{
-			long population=84515890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="109 bulgaria")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="110 congo")
-		{
-			long population=8458590;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="111 paraguay")
-		{
-			long population=84532890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="112 singapore")
-		{
-			long population=8458190;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="113 ei")
-		{
-			long population=84545890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="114 denmark")
-		{
-			long population=845280;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="115 finland")
-		{
-			long population=84585490;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="116 norway")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="117 lebonon")
-		{
-			long population=845555890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="118 palestine")
-		{
-			long population=84551890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="119 slovakia")
-		{
-			long population=8454890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="120 ireland")
-		{
-			long population=84544890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="121 new zealand")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="122 costa")
-		{
-			long population=8454890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="123 oman")
-		{
-			long population=84589110;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="124 liberia")
-		{
-			long population=784890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="125 mauri")
-		{
-			long population=8445190;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="126 kuwait")
-		{
-			long population=8451510;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="127 panama")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="128 croatia")
-		{
-			long population=8459510;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="130 sierra")
-		{
-			long population=81212890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="131 sierra")
-		{
-			long population=845150;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="132 uruguay")
-		{
-			long population=115890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="133 bosnia")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="134 aemenia")
-		{
-			long population=888890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="135 namibia")
-		{
-			long population=1115890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="136 lithuania")
-		{
-			long population=3335890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="137 quatar")
-		{
-			long population=822222;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="138 jaimaica")
-		{
-			long population=445890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="139 moldova")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}else if(name=="140 gambia")
-		{
-			long population=335890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="141 botswana")
-		{
-			long population=665890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="142 gabon")
-		{
-			long population=115890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="143 albania")
-		{
-			long population=845687;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="144 lesotho")
-		{
-			long population=115890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="145 slovnia")
-		{
-			long population=335890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="146 latvia")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="147 north macedonia")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="148 guinea")
-		{
-			long population=845330;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="149 baharain")
-		{
-			long population=995890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="150 equatorial")
-		{
-			long population=150290;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="151 timor")
-		{
-			long population=8145890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="152 estonia")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="153 trinidad")
-		{
-			long population=125890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="154 mauritius")
-		{
-			long population=995890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="155 eswatini")
-		{
-			long population=1111890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="156 djibouti")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="157 cyprus")
-		{
-			long population=841230;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="158 fiji")
-		{
-			long population=843390;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="159 comoros")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="160 bhutan")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="161 guyana")
-		{
-			long population=84215890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="162 solomon")
-		{
-			long population=84125890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="163 luxembourg")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="164 montenegro")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="165 suriname")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="166 malta")
-		{
-			long population=845811;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}else if(name=="168 cape")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="169 brunei")
-		{
-			long population=8885890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}else if(name=="170 belize")
-		{
-			long population=115890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="171 bahamas")
-		{
-			long population=665890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="172 iceland")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="173 vanuatu")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="174 barbados")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="175 sao")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="176 samoa")
-		{
-			long population=645890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="177 sait lucia")
-		{
-			long population=885890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="178 seychelles")
-		{
-			long population=222890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="179 kiribati")
-		{
-			long population=85890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="180 grenada")
-		{
-			long population=6255890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="181 sait vincent")
-		{
-			long population=222890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="182 micronesia")
-		{
-			long population=669990;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="183 antigua")
-		{
-			long population=3545890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="184 tonga")
-		{
-			long population=898790;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="185 andora")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="186 domnica")
-		{
-			long population=8479490;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="187 sait kitts")
-		{
-			long population=985890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="188 marshall")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="189 liechten")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="190 monaco")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="191 san marino")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="192 palau")
-		{
-			long population=845890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="193 nauru")
-		{
-			long population=8654890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="194 tuvalu  ")
-		{
-			long population=115890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		else if(name=="195 vatican")
-		{
-			long population=555890;
-			System.out.println("name   "+name+"   Population "+population);
-		
-		}
-		
-		
-		
-		
-		else{
-			System.out.println("The country is not available");
-		
-		}
-			
-		
-		
-	}	
+class Country{
+public static void Population(String name)
+{long pop=0;
+(name=="India"){
+	 pop=1450935791L;
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="China"){
+	pop=1419321278L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="United States"){
+	pop=345426571L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Indonesia"){
+	pop=283487931L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Pakistan"){
+	pop=251269164L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Nigeria"){
+	pop=232679478L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Brazil"){
+	pop=211998573L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Bangladesh"){
+	pop=173562364L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Russia"){
+	pop=144820423L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Mexico"){
+	pop=130861007L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Japan"){
+	pop=123753041L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Ethiopia"){
+	pop=132059767L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Philippines"){
+	pop=118277063L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Egypt"){
+	pop=116538258L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Vietnam"){
+	pop=105758975L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="DR Congo"){
+	pop=115403027L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Turkey"){
+	pop=84119531L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Iran"){pop=88386937L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Germany"){
+	pop=83294633L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Thailand"){
+	pop=70528201L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="United Kingdom"){
+	pop=67508936L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="France"){
+	pop=65633194L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Italy"){
+	pop=58870762L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="South Africa"){
+	pop=60414495L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Tanzania"){
+	pop=67438201L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Myanmar"){
+	pop=56590071L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="South Korea"){
+	pop=51715162L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Kenya"){
+	pop=52518756L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Spain"){
+	pop=57564301L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Argentina"){
+	pop=47519537L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Algeria"){
+	pop=46044703L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Ukraine"){
+	pop=45350148L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Sudan"){
+	pop=39701739L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Uganda"){
+	pop=49076279L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Iraq"){
+	pop=48582334L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Poland"){
+	pop=45632725L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Canada"){
+	pop=37627712L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Morocco"){
+	pop=38929902L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Saudi Arabia	"){
+	pop=37112080L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Uzbekistan"){
+	pop=36947025L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Peru"){
+	pop=35482369L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Malaysia"){pop=34294231L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Angola"){
+	pop=34045290L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Ghana"){
+	pop=36684202L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Mozambique"){
+	pop=35563112L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Yemen"){
+	pop=37007540L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Nepal"){
+	pop=34268343L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Venezuela"){pop=32382994L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Madagascar"){pop=29715436L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Cameroon"){pop=33099441L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Côte d'Ivoire"){pop=29964614L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="North Korea"){pop=28372687L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Australia"){pop=26329845L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Niger"){pop=26200984L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Sri Lanka"){pop=26159867L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Burkina Faso"){pop=22834965L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Mali"){pop=23769127L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Malawi"){pop=23594623L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Zambia"){pop=23025776L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Syria"){pop=20723965L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Kazakhstan"){pop=23420111L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Chile"){pop=20330104L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Guatemala"){pop=19658835L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Senegal"){pop=19319064L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Chad"){pop=18358615L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Somalia"){pop=20152938L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Zimbabwe"){pop=20568728L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Cambodia"){pop=19166772L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="South Sudan"){pop=17801897L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Rwanda"){pop=18455316L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Tunisia"){pop=13375738L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Guinea"){pop=12356117L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Benin"){pop=14186484L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Bolivia"){pop=14305482L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Belgium"){pop=12166041L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Haiti"){pop=11809666L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Burundi"){pop=12123553L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Cuba"){pop=13142306L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Greece"){pop=11032343L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Jordan"){pop=10430738L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Czech Republic"){pop=10642081L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Dominican Republic"){
+	pop=10551494L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Sweden"){pop=10644851L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Portugal"){pop=10389799L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Azerbaijan"){pop=10242908L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Hungary"){pop=10318207L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Belarus"){pop=9686463L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="United Arab Emirates"){
+	pop=9115680L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Israel"){pop=9130429L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Honduras"){pop=9256314L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Tajikistan"){pop=10463872L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Papua New Guinea"){pop=10389635L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Austria"){pop=10203169L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Switzerland"){pop=9064677L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Sierra Leone"){pop=8870561L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Togo"){pop=8460512L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Hong Kong"){pop=8387787L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Laos"){pop=7991425L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Paraguay"){pop=7752975L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Bulgaria"){pop=7322733L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else if(name=="Serbia"){pop=7209553L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Libya"){pop=6927982L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="El Salvador"){pop=6622597L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Nicaragua"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Lebanon"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="New Zealand"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Mauritania"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Panama"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Kuwait"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Croatia"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Moldova"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Georgia"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Eritrea"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Uruguay"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Mongolia"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Bosnia and Herzegovina"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Armenia"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Jamaica"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Qatar"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Albania"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Puerto Rico"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Lithuania"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Namibia"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Gambia"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Botswana"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Gabon"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Lesotho"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="North Macedonia"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Slovenia"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Guinea-Bissau"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Latvia"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Bahrain"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Equatorial Guinea"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Trinidad and Tobago"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Estonia"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Timor-Leste"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Mauritius"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Cyprus"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Eswatini (Swaziland)"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Djibouti"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Fiji"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Réunion"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Comoros"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Guyana"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Bhutan"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Solomon Islands"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Macao"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Montenegro"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Luxembourg"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Western Sahara"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Suriname"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Cabo Verde"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Micronesia"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Malta"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Maldives"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Brunei"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Guadeloupe"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Belize"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Bahamas"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Martinique"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Iceland"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Vanuatu"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="French Guiana"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Barbados"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="New Caledonia"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="French Polynesia"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Mayotte "){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Sao Tome and Principe"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Samoa"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Saint Lucia"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Channel Island"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Guam"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Curaçao"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Kiribati"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Grenada"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="St. Vincent and the Grenadines"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Aruba"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Tonga"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="US Virgin Islands"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Seychelles"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Antigua and Barbuda"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Isle of Man"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Andorra"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Dominica"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Cayman Island"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Bermuda"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Marshall Islands"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Northern Mariana Islands (US Territory)
+"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Greenland"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="American Samoa"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Saint Kitts and Nevis"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Faroe Islands"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Sint Maarten"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}else if(name=="Liechtenstein"){pop=6484375L;
+
+	System.out.println("Country name is"+name+"Population is-->"+pop);
+}
+else{
+	System.out.println("Sorry we dont have any Data Regarding this country");
+}
+
+}
 }
